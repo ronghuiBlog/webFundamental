@@ -117,7 +117,7 @@ div:lang(){
 ##### 示例3
 
 ````
-/*子元素匹配伪类*/
+/*子元素匹配伪类*/
 div:first-child{
     background-color:red;
 }
@@ -251,7 +251,7 @@ div{
 ##### 示例1
 
 ````
-/*em|ex|px*/
+/*em|ex|px*/
 div{
     width:1px;
     width:1em;
