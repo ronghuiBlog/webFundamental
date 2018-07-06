@@ -586,8 +586,260 @@ li{
 ## 外边距、边框、内边距
 
 ### 1. 外边距
+
+##### 示例1
+
+````
+/*margin*/
+p{
+    margin:10px;
+}
+span{
+    margin:10px; //仅左右有效
+}
+````
+
+##### 示例2
+
+````
+/*重复*/
+p{
+    margin:10px;
+}
+p{
+    margin:10px 15px;
+}
+p{
+    margin:10px 0.2em 10px;
+}
+````
+
+##### 示例3
+
+````
+/*单个外边距*/
+p{
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+}
+````
+
 ### 2. 边框
+
+##### 示例1
+
+````
+/*边框样式*/
+p{
+    bolder-style:solid;
+}
+````
+
+##### 示例2
+
+````
+/*边框大小*/
+p{
+    bolder-left-width:10px;
+}
+````
+
+##### 示例3
+
+````
+/*边框颜色*/
+p{
+    bolder-top-color:red;
+}
+````
+
 ### 3. 内边距
+
+##### 示例1
+
+````
+/*内边距*/
+p{
+    padding:10px;
+}
+````
+
+##### 示例2
+
+````
+/*单边内边距*/
+p{
+    padding-top:10px;
+    padding-right:15px;
+    pading-bottom:12px;
+    padding-left:8px;
+}
+````
 
 ## 颜色和背景
 
+### 1.前景色
+
+##### 示例1
+
+````
+/*前景色*/
+p{
+    color:red;
+}
+````
+
+### 2.背景
+
+##### 示例1
+
+````
+/*背景颜色*/
+p{
+    background-color:red;
+}
+````
+
+##### 示例2
+
+````
+/*背景图像*/
+p{
+    background-image:url();
+}
+````
+
+##### 示例3
+
+````
+/*背景图像重复*/
+p{
+    background-rapet:rapet-y;
+}
+````
+
+##### 示例4
+
+````
+/*背景定位*/
+p{
+    background-position:center;
+}
+````
+
+##### 示例1
+
+````
+/*背景关联*/
+p{
+    background-attachment:fixed;
+}
+````
+
+## 浮动和定位
+
+### 1.float
+
+##### 示例1
+
+````
+/*浮动*/
+p{
+    float:left;
+}
+````
+
+### 2. 定位
+
+##### 示例1
+
+````
+/*定位的类型*/
+p{
+    position:relative|static|absolute|fixed|flex;
+}
+````
+
+##### 示例2
+
+````
+/*偏移属性*/
+p{
+    position:relative;
+    top:5px;
+    right:5px;
+    bottom:5px;
+    left:5px;
+}
+````
+
+##### 示例3
+
+````
+/*限制高度和宽度*/
+p{
+    min-widht:10px;
+    min-height:10px;
+    max-width:50px;
+    max-height:50px;
+}
+````
+
+##### 示例4
+
+````
+/*内容溢出裁剪*/
+p{
+    overflow:hidden;
+}
+p{
+    clip:rect(2px,2px,2px,2px);
+}
+````
+
+##### 示例5
+
+````
+/*元素可见性*/
+p{
+    visibility:hidden;
+}
+````
+
+##### 示例6
+
+````
+/*绝对定位*/
+p{
+    position:absolute;
+}
+````
+
+##### 示例7
+
+````
+/*相对定位*/
+p{
+    position:relative;
+}
+````
+
+##### 示例8
+
+````
+/*固定定位*/
+p{
+    position:fixed;
+}
+````
+
+##### 示例9
+
+````
+/*层叠*/
+p{
+    z-index:999;
+}
+````
